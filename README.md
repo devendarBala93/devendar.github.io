@@ -4,7 +4,7 @@ Portfolio for a **frontend-focused full-stack engineer**.
 
 Frontend engineering is the strongest part of the profile: Angular, TypeScript, enterprise UI, microfrontends, and design systems. Full-stack work is shown through real applications built with Node.js, NestJS, and MongoDB. Public profile details add a Technical Lead role at Kore.ai, 9+ years of experience, and vibe coding with Cursor, GitHub Copilot, Codeium, and ChatGPT. Backend experience is not presented as equal to the frontend career.
 
-Live target: [https://devendarbala93.github.io](https://devendarbala93.github.io/)
+Live site: [https://devendarbala93.github.io/devendar.github.io/](https://devendarbala93.github.io/devendar.github.io/)
 
 ## Stack
 
@@ -23,14 +23,13 @@ npm run preview
 
 ## Deploy
 
-The user site `https://<username>.github.io` only publishes from a repository named `<username>.github.io`.
+This repository publishes with GitHub Actions to the project site above.
 
-1. Create a public repository named `devendarBala93.github.io`.
-2. Push this project to the `main` branch.
-3. In the repository, open **Settings → Pages** and set the source to **GitHub Actions**.
-4. Pushing to `main` runs `.github/workflows/deploy.yml`, which builds the site and deploys `dist`.
+1. Push to the `main` branch.
+2. In the repository, open **Settings → Pages** and set the source to **GitHub Actions**.
+3. `.github/workflows/deploy.yml` builds the site and deploys `dist`.
 
-`vite.config.ts` uses `base: '/'` for that user-site URL. A project site such as `https://devendarbala93.github.io/some-repo/` needs `base` set to `/some-repo/`.
+`vite.config.ts` uses `base: '/devendar.github.io/'` so asset paths match that project URL.
 
 ## Motion and access
 
