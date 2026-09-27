@@ -1,0 +1,18 @@
+{
+  "name": "Bala Devendar — Frontend & Full-Stack Engineer",
+  "short_name": "Bala Devendar",
+  "description": "Technical Lead at Kore.ai. Frontend-focused full-stack engineer and vibe coder.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#05070c",
+  "theme_color": "#05070c",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
